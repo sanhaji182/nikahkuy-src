@@ -1,0 +1,139 @@
+/*
+===============================================
+ROUNDED
+=================================================
+*/
+
+/* Facebook */
+
+.facebook {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: #3b5998;
+    margin: 0 auto;
+}
+
+
+/* Twitter */
+
+.twitter {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: #55ACEE;
+    margin: 0 auto;
+}
+
+
+/* Google Plus */
+
+.google-plus {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: #DA4835;
+    margin: 0 auto;
+}
+
+
+/* LinkedIn */
+
+.linkedin {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: #007AB9;
+    margin: 0 auto;
+}
+
+
+/* Pinterest */
+
+.pinterest {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: #CB2027;
+    margin: 0 auto;
+}
+
+
+/* Tumblr */
+
+.tumblr {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: #44546A;
+    margin: 0 auto;
+}
+
+
+/* Settings */
+
+i.fa.fa-facebook.round,
+i.fa.fa-twitter.round,
+i.fa.fa-google.round,
+i.fa.fa-linkedin.round,
+i.fa.fa-pinterest.round,
+i.fa.fa-tumblr.round {
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+
+/*
+===============================================
+BUTTONS
+=================================================
+*/
+
+ul.share {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+ul.share li.share {
+    margin: 2px;
+}
+
+ul.share li.share a {
+    min-width: 25px;
+    height: 25px;
+    border-radius: 3px;
+    display: block;
+    overflow: hidden;
+    font-size: 9pt;
+    color: #fff;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+ul.share li.share a span {
+    float: left;
+    padding: 0 10px;
+}
+
+ul.share li.share a i.fa {
+    float: left;
+    width: 25px;
+    height: 25px;
+    font-size: 10pt;
+    line-height: 25px;
+}
+
+ul.share li.share a:hover {
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+}
